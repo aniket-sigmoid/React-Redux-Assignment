@@ -1,11 +1,11 @@
-// import Form from "./components/Form";
+import Form from "./components/Form";
 import { ThemeProvider, createTheme, CssBaseline } from "@mui/material";
 
 const theme = createTheme({
   palette: {
     primary: {
       main: "#1f2937",
-      white: "#ffffff",
+      white: "grey",
     },
     text: {
       primary: "#173A5E",
